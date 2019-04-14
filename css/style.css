@@ -61,6 +61,7 @@ body {
 	color:#888888;
 	margin:0;
 }
+
 h2{
 	font-size:34px;
 	color:#222222;
@@ -74,7 +75,7 @@ h2{
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
-	font-size:16px;
+	font-size:22px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
 	font-weight:400;
@@ -87,8 +88,16 @@ h6{
 	text-align:center;
 	margin:0 0 60px 0;
 }
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+}
+
 p{
+	font-family: 'Open Sans', sans-serif;
 	line-height:24px;
+	font-size:18px;
 	margin:0;
 }
 
@@ -97,9 +106,9 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/header-ConvertImage.png);
+	background:url(../img/splash_kaido.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
 	background-position: center top;
 	background-attachment: fixed;
 	padding: 320px 0;
@@ -156,6 +165,7 @@ color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	display:inline-block;
 	border-radius:3px;
+	border: 2px solid white;
 	text-transform:uppercase;
 	line-height:25px;
 	margin-bottom:20px;
@@ -363,24 +373,24 @@ color: #fff;
 	float:left;
 	padding:0;
 }
-.Portfolio-box img{
+.Projekts img{
 	margin-bottom:25px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;	
 }
 
-.Portfolio-box img:hover {
+.Projekts img:hover {
 	opacity: 0.6;
 }
 
-.Portfolio-nav li a.current{
+.Projekts li a.current{
 	background:#2b542c;
 	color:#fff;
 	text-decoration:none;
 }
 img {
-   max-width:100%;
+	max-width:100%;
 }
 
 .Projekts{
